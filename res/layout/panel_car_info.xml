@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="3dp"
+        android:ems="10"
+        android:text="当前时间:"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/editText3"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_x="2dp"
+        android:layout_y="129dp"
+        android:ems="10"
+        android:text="工作温度:"
+        android:textSize="15pt" />
+
+    <DigitalClock
+        android:id="@+id/digitalClock"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_x="63dp"
+        android:layout_y="64dp"
+        android:paddingRight="4.0dip"
+        android:textColor="#ffffffff"
+        android:textSize="24.0dip"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/EditText02"
+        android:layout_width="235dp"
+        android:layout_height="wrap_content"
+        android:layout_x="6dp"
+        android:layout_y="256dp"
+        android:ems="10"
+        android:text="剩余电量:"
+        android:textSize="15pt" />
+
+    <TextView
+        android:id="@+id/info_charge"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="316dp"
+        android:ems="10"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/EditText04"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_x="173dp"
+        android:layout_y="316dp"
+        android:ems="10"
+        android:text="%"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/editText4"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        android:layout_x="173dp"
+        android:layout_y="181dp"
+        android:ems="10"
+        android:text="°C"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/EditText01"
+        android:layout_width="98dp"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="181dp"
+        android:ems="10"
+        android:text="20"
+        android:textSize="20pt" />
+
+    <TextView
+        android:id="@+id/info_speed"
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:layout_x="448dp"
+        android:layout_y="235dp"
+        android:textSize="25pt" />
+
+    <TextView
+        android:id="@+id/editText5"
+        android:layout_width="173dp"
+        android:layout_height="wrap_content"
+        android:layout_x="584dp"
+        android:layout_y="234dp"
+        android:ems="10"
+        android:text="km/h"
+        android:textSize="25pt" />
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/compass_position"
+        android:layout_width="453dp"
+        android:layout_height="446dp"
+        android:layout_x="347dp"
+        android:layout_y="59dp"
+        android:gravity="top"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</AbsoluteLayout>

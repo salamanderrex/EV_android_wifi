@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#fffff0" >
+
+    <!--
+    <Button
+        android:id="@+id/change_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="connect" />
+
+    <Button
+        android:id="@+id/write_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="write" />
+    -->
+<!-- 
+    <Button
+        android:id="@+id/disconnect_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="disconnect" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="exit" />
+ -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/topbar">
+
+        <ImageButton
+            android:id="@+id/IB_connect_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/small_disconnect" />
+
+        <ImageButton
+            android:id="@+id/IB_lock_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/small_lock" />
+
+
+
+        <TextView
+            android:id="@+id/title_speed"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="speed:0 charge:0 "
+            android:textSize="20px"
+            android:textColor="#000000"
+         
+             />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/list_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="5"
+            android:orientation="vertical" >
+
+            <!--
+        <fragment
+            android:id="@+id/fragment_list"
+            android:name="com.rex.MyListFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+            -->
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/panel_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <!--
+            <fragment
+                android:id="@+id/fragment_panel"
+                android:name="com.rex.PanelFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            -->
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
